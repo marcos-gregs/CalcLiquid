@@ -5,13 +5,15 @@ export const Calc = () =>{
     const [ResultTotal,setResultTotal] = useState(0)
     const [ValueBruto ,setValueBruto] = useState(0)
     const [DescValue ,setDescValue] = useState(0)
+    const [PerLiquid, setPerLiquid] = useState(0)
 
     const setAccount =() =>{
         let account = (ValueBruto * DescValue)/100
         let TotalAccount =  ValueBruto - account
-       
+        let PerLiqui = (ValueBruto - TotalAccount)/100
         setResultDesc(account)
         setResultTotal(TotalAccount)
+        setPerLiquid(PerLiqui)
         setDescValue(0)
         setValueBruto(0)
 
@@ -45,7 +47,10 @@ export const Calc = () =>{
                   <p>Valor Liquido:</p>
                   <span id="ValueLiquid">{ResultTotal}</span>
             </div>
-          
+            <div>
+                  <p>Variação percentual:</p>
+                  <span id="ValueLiquid">{PerLiquid}</span>
+            </div>
         </div>
       
     </div>
