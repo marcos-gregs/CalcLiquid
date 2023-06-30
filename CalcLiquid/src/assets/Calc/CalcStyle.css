@@ -1,0 +1,160 @@
+.MainDisplay{
+  display: flex;
+  flex-direction: column;
+  margin: 20% auto;
+  width: 20vw;
+  height: 30vh;
+  background-color: rgb(38, 176, 130);
+  font-family: inherit;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.DisplayAction{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+}
+button{
+    margin-top: 5%;
+}
+
+.DisplayResult{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+@media screen and (min-width:1024px) and (max-width:1440px){
+    .MainDisplay{
+        margin: 20% auto;
+        width: 70vw;
+        height: 45vh;
+        background-color: rgb(38, 176, 130);
+        font-family: inherit;
+        font-size: 20px;
+        border-radius: 20px;
+      }
+      .DisplayAction{
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          margin: 2% auto;
+      }
+      button{
+          margin-top: 5%;
+      }
+      
+      .DisplayResult{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      
+      }
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .MainDisplay{
+        margin: 20% auto;
+        width: 70vw;
+        height: 40vh;
+        background-color: rgb(38, 176, 130);
+        font-family: inherit;
+        font-size: 20px;
+        border-radius: 20px;
+      }
+      .DisplayAction{
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          margin: 2% auto;
+      }
+      button{
+          margin-top: 5%;
+      }
+      
+      .DisplayResult{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      
+      }
+
+}
+@media screen and (min-width:425px) and (max-width:768px){
+    .MainDisplay{
+        margin: 20% auto;
+        width: 70vw;
+        height: 40vh;
+        background-color: rgb(38, 176, 130);
+        font-family: inherit;
+        font-size: 20px;
+        border-radius: 20px;
+      }
+      .DisplayAction{
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          margin: 2% auto;
+      }
+      button{
+          margin-top: 5%;
+      }
+      
+      .DisplayResult{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      
+      }
+}
+@media screen and (min-width:375px) and (max-width:425px) {
+    .MainDisplay{
+        margin: 20% auto;
+        width: 70vw;
+        height: 40vh;
+  
+      }
+      .DisplayAction{
+          width: 90%;
+     
+      }
+      button{
+          margin-top: 5%;
+      }
+      
+      .DisplayResult{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      
+      }
+    
+}
+@media screen and (min-width:320px) and (max-width:375px) {
+    .MainDisplay{
+        margin: 20% auto;
+        width: 70vw;
+        height: 40vh;
+        background-color: rgb(38, 176, 130);
+        font-family: inherit;
+        font-size: 20px;
+        border-radius: 20px;
+      }
+      .DisplayAction{
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          margin: 2% auto;
+      }
+      button{
+          margin-top: 5%;
+      }
+      
+      .DisplayResult{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+      
+      }
+    
+}
